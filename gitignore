@@ -1,0 +1,18 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore temporary files
+*.log
+*.tmp
+~$*
+
+# Ignore Office backup files
+*.docx~
+*.xlsx~
+
+# Ignore backup files
+*.bak
+
+# Ignore system-specific files
+Thumbs.db
+ehthumbs.db
