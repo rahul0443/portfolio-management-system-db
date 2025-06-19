@@ -1,102 +1,84 @@
-# 🧾 Portfolio Management System
+# 📈 Portfolio Management System
 
-A full-stack, relational database-backed simulation of a modern-day stock portfolio management system. It demonstrates schema design, transactional workflows, stored procedures, views, triggers, and user-defined functions for financial portfolio management.
+A full-featured stock portfolio management system built with a relational database architecture. This project demonstrates the design and implementation of a trading platform database — capable of handling users, accounts, trades, market pricing, and portfolio reporting — using SQL and core data management principles.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Overview
 
-The **Portfolio Management System** enables users to:
+This system enables users to:
 - Track personal stock holdings and account balances
-- Execute trades (Buy/Sell) across various order types
-- Analyze trading behavior and market trends
-- Monitor real-time and historical stock performance
-- Ensure data accuracy and auditability with triggers and logs
+- Place and manage buy/sell orders (Market & Limit)
+- Log and audit all transactions
+- Analyze real-time and historical stock price trends
+- Generate portfolio value summaries over time
 
 ---
 
-## 🗂️ Core Features
+## 💡 Key Features
 
-- **Users & Accounts Management**  
-  Maintains user profiles and their linked brokerage/retirement/personal accounts.
+- **User & Account Management**  
+  Support for multiple account types (Personal, Brokerage, Retirement)
+
+- **Order Processing System**  
+  Handles Market and Limit orders with status tracking (Pending, Executed, Canceled)
 
 - **Transaction Engine**  
-  Logs every buy/sell activity with calculated value and price snapshots.
+  Stores detailed trade history with timestamps and pricing
 
-- **Portfolio Holdings**  
-  Tracks shares owned, quantity, and average buy prices for every user.
+- **Portfolio Tracker**  
+  Tracks live share quantities and average purchase prices
 
-- **Market & Order Handling**  
-  Simulates current stock prices and supports order types (Market, Limit).
+- **Market Data Logs**  
+  Simulates dynamic pricing and price history for stocks
 
-- **Statements Generation**  
-  Periodically summarizes total portfolio value per user.
-
-- **Analytics Views**  
-  Includes:
-  - `UserPortfolioSummary`  
-  - `RecentTransactions`  
-  - `DailyTradingSummary`
+- **Analytics Views & Reports**  
+  Includes user-level summaries, order books, and performance snapshots
 
 - **Triggers & Audits**  
-  Tracks stock sector changes with an `SECTOR_AUDIT` log using INSERT/UPDATE/DELETE triggers.
+  Logs sensitive updates (e.g., sector changes) for auditability
 
 - **Stored Procedure**  
-  `BuyStock`: Handles buy operations with checks for sufficient holdings and error handling.
+  `BuyStock` procedure validates transactions and adjusts holdings
 
-- **UDF**  
-  `GetTotalPortfolioValue`: Computes a user's complete current portfolio value.
+- **User-Defined Function (UDF)**  
+  Calculates total portfolio value from current holdings
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Technologies Used
 
 - SQL Server 2017
 - T-SQL (Transact-SQL)
-- Microsoft Management Studio (SSMS)
-- Platform: macOS
+- Microsoft SQL Server Management Studio (SSMS)
 
 ---
 
-## 📁 Project Structure
+## 📂 Repository Contents
 
 ```
-portfolio-management-system/
-├── GROUP7_CODE_FILE_SUBMISSION.txt        # Complete SQL code for schema, views, triggers, SP, UDF
-├── GROUP-7-FINAL-PROJECT-IFT530.pdf       # Full report with design, screenshots, and test cases
-├── GROUP-7-FINAL-PROJECT-SUMMARY.docx     # Executive summary of the project
-├── README.md                              # Project documentation
+portfolio-management-system-db/
+├── code.txt       # Complete SQL script (tables, procedures, views, triggers)
+├── Report.pdf     # Detailed report with architecture, logic, and test cases
+├── README.md      # Project overview and documentation
+├── .gitignore     # Ignored system/editor-specific files
 ```
 
 ---
 
-## 👨‍💻 Authors
+## 👥 Authors
 
 - Rahul Muddhapuram  
 - Ishan Ojha
 
 ---
 
-## 📌 Repository Name Suggestion
-
-`portfolio-management-system-db`  
-✅ Descriptive  
-✅ Concise  
-✅ SEO-friendly
-
-Other options:
-- `stock-portfolio-sql`
-- `investment-db-simulator`
-- `sql-portfolio-manager`
-
----
-
 ## 📄 License
 
-Use, share, and modify as needed. Please credit the original authors.
+This project is shared for reference and educational purposes only. Redistribution or commercial use is not permitted without explicit permission from the authors.
 
 ---
 
 ## 📬 Contact
 
-For queries or demo requests, feel free to reach out via LinkedIn or email.
+For professional inquiries or demonstrations, please reach out via LinkedIn or email.
