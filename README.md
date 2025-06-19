@@ -1,6 +1,6 @@
 # 🧾 Portfolio Management System
 
-A full-stack, relational database-backed simulation of a modern-day stock portfolio management system. Developed as a final project for *IFT 530 – Advanced Database Management Systems*, it demonstrates schema design, transactional workflows, stored procedures, views, triggers, and user-defined functions.
+A full-stack, relational database-backed simulation of a modern-day stock portfolio management system. It demonstrates schema design, transactional workflows, stored procedures, views, triggers, and user-defined functions for financial portfolio management.
 
 ---
 
@@ -51,9 +51,9 @@ The **Portfolio Management System** enables users to:
 
 ## 🛠️ Tech Stack
 
-- **SQL Server 2017**
-- **T-SQL (Transact-SQL)**
-- **Microsoft Management Studio (SSMS)**
+- SQL Server 2017
+- T-SQL (Transact-SQL)
+- Microsoft Management Studio (SSMS)
 - Platform: macOS
 
 ---
@@ -72,11 +72,8 @@ portfolio-management-system/
 
 ## 👨‍💻 Authors
 
-**Group 7 – IFT 530**
 - Rahul Muddhapuram  
-- Ishan Ojha  
-
-Instructor: Ashish Gulati
+- Ishan Ojha
 
 ---
 
@@ -96,11 +93,10 @@ Other options:
 
 ## 📄 License
 
-For academic purposes under ASU guidelines.
+Use, share, and modify as needed. Please credit the original authors.
 
 ---
 
 ## 📬 Contact
 
-For queries or demo requests, reach out to team members directly via project report or academic contact.
-
+For queries or demo requests, feel free to reach out via LinkedIn or email.
