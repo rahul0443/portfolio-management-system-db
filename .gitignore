@@ -1,0 +1,21 @@
+# System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Temp and backup files
+*.tmp
+*.log
+*.bak
+~$*
+
+# SQL Server Management Studio (SSMS) user settings
+*.ssmssln
+*.ssmssqlproj
+*.user
+*.suo
+
+# Backup SQL scripts
+*.bak
+*.sql.bak
+*.sql.tmp
