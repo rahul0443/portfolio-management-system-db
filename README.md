@@ -19,7 +19,7 @@ This database system simulates the core backend operations of a modern brokerage
 Key system capabilities include:
 - **User Demographics & Account Management**: Tracks user details and balance across multiple account types (Personal, Brokerage, Retirement).
 - **Transaction Ledger**: Implements an immutable ledger recording every `BUY` and `SELL` transaction.
-- **Dynamic Portfolio Tracker**: Real-time average price and share count tracking per account and asset.
+- **Dynamic Portfolio Tracker**: Real-time share count tracking per account and asset via `BuyStock` (see below) -- note average price is set on a position's first purchase and is not currently recalculated on subsequent buys of an already-held position.
 - **Order Execution & Queue Processing**: Places `Market` and `Limit` orders and executes them using cursor-driven workflows.
 - **Historical Price Tracking**: Simulates tick market data to compute historical valuations.
 - **Data Compliance Auditing**: Captures changes to critical data entities through automated triggers.
